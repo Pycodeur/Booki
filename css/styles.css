@@ -1,0 +1,28 @@
+body {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+header nav ul li {
+
+    padding: 50px 25px;
+    border-top: 4px solid transparent;
+    margin: 0px 20px 0px 20px;
+}
+
+header li a:hover {
+    color: #0065fc;
+    border-top: 2px solid #0065fc;
+}
